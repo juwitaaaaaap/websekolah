@@ -94,6 +94,9 @@
             <div class="row my-3">
                 <div class="col-4">
                     <div class="card">
+                        <div class="header text-center">
+                            <img src="img/dkv.jpg"  width="30%" class="" alt="">
+                        </div>
                         <div class="card-body bg-warning text-center">
                             <h5>DKV</h5>
                             Desain Komunikasi Visual
@@ -102,6 +105,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
+                        <div class="header text-center">
+                            <img src="img/pplg.png"  width="120px" height="120px" alt="">
+                        </div>
                         <div class="card-body bg-success text-center">
                             <h5>PPLG</h5>
                             Pengembangan Perangkat Lunak Dan Gim
@@ -110,6 +116,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
+                        <div class="header text-center">
+                            <img src="img/tbsm.png"  width="120px" height="120px" class="" alt="">
+                        </div>
                         <div class="card-body bg-danger text-center">
                             <h5>TBSM</h5>
                             Teknik Bisnis Sepeda Motor
@@ -120,6 +129,9 @@
             <div class="row my-3">
                 <div class="col-6">
                     <div class="card">
+                        <div class="header text-center">
+                            <img src="img/tkjt.png"  width="120px" height="120px" class="" alt="">
+                        </div>
                         <div class="card-body bg-primary text-center">
                             <h5>TJKT</h5>
                             Teknik Jaringan Komputer Dan Telekomunikasi
@@ -128,6 +140,9 @@
                 </div>
                 <div class="col-6">
                     <div class="card">
+                        <div class="header text-center">
+                            <img src="img/toi.png"  width="120px" height="120px" class="" alt="">
+                        </div>
                         <div class="card-body bg-secondary text-center">
                             <h5>TOI</h5>
                             Teknik Otomasi Industri
@@ -135,6 +150,19 @@
                     </div>
                 </div>
             </div>
+            <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="img/dkv.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">DKV</h5>
+        <p class="card-text">Desain Komunikasi visual adah jurusan</p>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <!-- tutup jurusan -->
         </div>

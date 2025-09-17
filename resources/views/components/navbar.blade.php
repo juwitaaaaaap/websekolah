@@ -19,7 +19,7 @@
 <body>
 
     <!-- NAVBAR -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="cols-md-12">
                     <nav class="navbar navbar-expand-lg bg-primary bg-gradient my-4 shadow rounded-3">
