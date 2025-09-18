@@ -1,6 +1,9 @@
 <x-navbar />
         <!-- sejarah -->
         <div class="row">
+            @foreach ($data as $profil)
+                
+            
             <div class="col-12 my-3">
                 <div class="card">
                     <div class=" card-header bg-warning text-center "> SEJARAH SMKN 4 TASIKMALAYA</div>
@@ -10,21 +13,18 @@
                             <p>Pada tahun 2012 keluarlah surat Izin Pendirian berdasarkan keputusan kepala Badan Pelayanan Perizinan Terpadu Kota Tasikmalaya No. 420/9/SK-BPPT/2012 Tanggal 06 Februari 2012.</p>
                         </div>
                 </div>
-            </div>
             <!-- tutup sejarah -->
             
             <!-- visi misi -->
-            <div class="col-12 my-3">
                 <div class="card">
                     <div class="card-header text-center bg-success ">VISI</div>
                         <div class="card-body text-center">
-                            <p>TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF BERLANDASKAN IMAN DAN TAKWA</p>
-                            <p>(CAKAP BERIMTAK)</p>
+                           {{ $profil->visi }}
                         </div>
                     
                 </div>
-            </div>
-            <div class="col-12 my-3">
+                
+            
                 <div class="card">
                     <div class="card-header text-center bg-danger">MISI</div>
                         <div class="card-body">
@@ -41,6 +41,7 @@
                     
                 </div>
             </div>
+            @endforeach
             <!-- tutup visi misi -->
 
             <!-- identitas sekolah -->
